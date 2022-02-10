@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Anuncio</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Valid input</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://joaogenio.github.io/pages/pedidos.html<datalist><option>https://joaogenio.github.io/pages/pedidos.html</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=date<datalist><option>name=date</option><option>//input[@name='date']</option><option>//form[@id='pedido-form']/input</option><option>//input</option><option>css=input[name="date"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=date<datalist><option>name=date</option><option>//input[@name='date']</option><option>//form[@id='pedido-form']/input</option><option>//input</option><option>css=input[name="date"]</option></datalist></td><td>05-11</td>
+</tr>
+<tr><td>click</td><td>name=location<datalist><option>name=location</option><option>//input[@name='location']</option><option>//form[@id='pedido-form']/input[2]</option><option>//input[2]</option><option>css=input[name="location"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=location<datalist><option>name=location</option><option>//input[@name='location']</option><option>//form[@id='pedido-form']/input[2]</option><option>//input[2]</option><option>css=input[name="location"]</option></datalist></td><td>Aveiro</td>
+</tr>
+<tr><td>click</td><td>name=task<datalist><option>name=task</option><option>//input[@name='task']</option><option>//form[@id='pedido-form']/input[3]</option><option>//input[3]</option><option>css=input[name="task"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=task<datalist><option>name=task</option><option>//input[@name='task']</option><option>//form[@id='pedido-form']/input[3]</option><option>//input[3]</option><option>css=input[name="task"]</option></datalist></td><td>Limpar</td>
+</tr>
+<tr><td>click</td><td>id=pedido-form<datalist><option>id=pedido-form</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Peça uma tarefa'])[1]/following::form[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Entrar'])[1]/following::form[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Anúncios perto de si'])[1]/preceding::form[1]</option><option>//form[@id='pedido-form']</option><option>//form</option><option>css=#pedido-form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=description<datalist><option>name=description</option><option>//input[@name='description']</option><option>//form[@id='pedido-form']/input[4]</option><option>//input[4]</option><option>css=input[name="description"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=description<datalist><option>name=description</option><option>//input[@name='description']</option><option>//form[@id='pedido-form']/input[4]</option><option>//input[4]</option><option>css=input[name="description"]</option></datalist></td><td>Limpar a minha casa</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Peça uma tarefa'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Peça uma tarefa'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Entrar'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Anúncios perto de si'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Aveiro'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Anunciar']/parent::*</option><option>//form[@id='pedido-form']/button</option><option>//form/button</option><option>css=#pedido-form &gt; button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Invalid input</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://joaogenio.github.io/pages/pedidos.html<datalist><option>https://joaogenio.github.io/pages/pedidos.html</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=date<datalist><option>name=date</option><option>//input[@name='date']</option><option>//form[@id='pedido-form']/input</option><option>//input</option><option>css=input[name="date"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=date<datalist><option>name=date</option><option>//input[@name='date']</option><option>//form[@id='pedido-form']/input</option><option>//input</option><option>css=input[name="date"]</option></datalist></td><td>Invalid</td>
+</tr>
+<tr><td>click</td><td>name=location<datalist><option>name=location</option><option>//input[@name='location']</option><option>//form[@id='pedido-form']/input[2]</option><option>//input[2]</option><option>css=input[name="location"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=location<datalist><option>name=location</option><option>//input[@name='location']</option><option>//form[@id='pedido-form']/input[2]</option><option>//input[2]</option><option>css=input[name="location"]</option></datalist></td><td>1115</td>
+</tr>
+<tr><td>click</td><td>name=task<datalist><option>name=task</option><option>//input[@name='task']</option><option>//form[@id='pedido-form']/input[3]</option><option>//input[3]</option><option>css=input[name="task"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=task<datalist><option>name=task</option><option>//input[@name='task']</option><option>//form[@id='pedido-form']/input[3]</option><option>//input[3]</option><option>css=input[name="task"]</option></datalist></td><td>15145</td>
+</tr>
+<tr><td>click</td><td>name=description<datalist><option>name=description</option><option>//input[@name='description']</option><option>//form[@id='pedido-form']/input[4]</option><option>//input[4]</option><option>css=input[name="description"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=description<datalist><option>name=description</option><option>//input[@name='description']</option><option>//form[@id='pedido-form']/input[4]</option><option>//input[4]</option><option>css=input[name="description"]</option></datalist></td><td>154it</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Peça uma tarefa'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Peça uma tarefa'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Entrar'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Anúncios perto de si'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Aveiro'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Anunciar']/parent::*</option><option>//form[@id='pedido-form']/button</option><option>//form/button</option><option>css=#pedido-form &gt; button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
